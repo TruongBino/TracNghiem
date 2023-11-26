@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edit_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Câu hỏi" />
+
+    <EditText
+        android:id="@+id/edit_option1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phương án 1" />
+
+    <EditText
+        android:id="@+id/edit_option2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phương án 2" />
+
+    <EditText
+        android:id="@+id/edit_option3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phương án 3" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lưu" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
